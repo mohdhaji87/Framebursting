@@ -1,0 +1,12 @@
+<html>
+<body>
+<h1> This won't be clickjacked!! </h1>
+<h2> Frame bursting will be happening </h2>
+<script>
+if(top != window) {
+  top.location = window.location
+}
+</script>
+
+</body>
+</html>
